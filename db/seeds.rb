@@ -9,3 +9,5 @@
 #   end
 Post.delete_all
 User.delete_all
+# db/seeds.rb
+Tag.delete_all
