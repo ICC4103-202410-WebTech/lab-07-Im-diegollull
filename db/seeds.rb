@@ -12,7 +12,7 @@ User.delete_all
 Tags.delete_all
 Post_tag.delete_all
 
-#
+
 
 usr1 = User.create!(
     name: 'John Doe',
@@ -169,4 +169,4 @@ pst6.tags << tg5
 pst7.tags << tg4
 pst8.tags << tg3
 pst9.tags << tg4
-pst10.tags << tg1 #
+pst10.tags << tg1
